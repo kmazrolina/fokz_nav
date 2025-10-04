@@ -1,5 +1,19 @@
-# RoNIN: Robust Neural Inertial Navigation in the Wild
+# FOKZ Navigation
+Inertial Navigation System 
 
+## Quick start
+```bash
+pip install -r requirements.txt
+python app.py
+
+#in separate terminal
+python client.py # this will make test prediction on the app server using ronin neural model
+```
+
+## RoNIN: Robust Neural Inertial Navigation in the Wild
+FOKZ Nav uses RoNIN model for inertial navigation based on accelerometer and gyroscope data. 
+
+Instructions on how to use the model are listed below (copied from original RoNIN repository)
 **Paper**: [ICRA 2020](https://ieeexplore.ieee.org/abstract/document/9196860), [arXiv](https://arxiv.org/abs/1905.12853)  
 **Website**: http://ronin.cs.sfu.ca/  
 **Demo**: https://youtu.be/JkL3O9jFYrE
