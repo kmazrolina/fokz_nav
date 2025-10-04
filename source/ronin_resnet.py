@@ -7,6 +7,23 @@ import torch
 import json
 
 import matplotlib.pyplot as plt
+
+# Enable dark mode for all plots
+plt.style.use('dark_background')
+plt.rcParams.update({
+    'figure.facecolor': '#121212',
+    'axes.facecolor': '#121212',
+    'axes.edgecolor': 'white',
+    'axes.labelcolor': 'white',
+    'xtick.color': 'white',
+    'ytick.color': 'white',
+    'grid.color': 'gray',
+    'text.color': 'white',
+    'legend.facecolor': '#222222',
+    'legend.edgecolor': 'white',
+})
+
+
 from scipy.interpolate import interp1d
 from tensorboardX import SummaryWriter
 from torch.utils.data import DataLoader
